@@ -1,19 +1,8 @@
-<br/>
-
-<div align="center">
-	<img height="100" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokeball Icon" style="image-rendering: pixelated; image-rendering: crisp-edges;">
-
-<br/>
-
-</div>
-
-<br/>
-
 # Pokémon Card — HTML/CSS Practice
 
 A responsive Pokémon card component built in pure HTML and CSS, declined into three variants (Charmander, Squirtle, Bulbasaur) with a home page linking them together.
 
-**[Live Demo →](https://your-username.github.io/pokedex-variants/)**
+**[Live Demo →](https://aleksrdesign.github.io/pokemon-card/)**
 
 ## Overview
 
