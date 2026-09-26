@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f1ea;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 76px 24px 24px 24px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.pokeball {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.pokeball img {
+  width: 50px;
+}
+
+.pokeball:hover {
+  transform: translateY(-6px);
+}
+
+.subtitle {
+  text-align: center;
+  color: #475569;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-name {
+  font-size: 18px;
+}
+
+.card-type {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.card-fire {
+  background-color: #ff5722;
+  box-shadow: 0 8px 16px rgba(255, 87, 34, 0.25);
+}
+
+.card-fire:hover {
+  background-color: #e64a19;
+}
+
+.card-water {
+  background-color: #0284c7;
+  box-shadow: 0 8px 16px rgba(2, 132, 199, 0.25);
+}
+
+.card-water:hover {
+  background-color: #0369a1;
+}
+
+.card-grass {
+  background-color: #16a34a;
+  box-shadow: 0 8px 16px rgba(22, 163, 74, 0.25);
+}
+
+.card-grass:hover {
+  background-color: #15803d;
+}
+
+.note {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
