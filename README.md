@@ -4,6 +4,8 @@ A responsive Pokémon card component built in pure HTML and CSS, declined into t
 
 **[Live Demo →](https://aleksrdesign.github.io/pokemon-card/)**
 
+![Pokémon Card preview](screenshots/preview.png)
+
 ## Overview
 
 This project is a front-end practice exercise focused on building a clean, reusable card layout from scratch — no frameworks, no CSS libraries. Each variant reuses the same HTML/CSS structure with only content and accent colors changing, to practice writing maintainable, consistent styles.
