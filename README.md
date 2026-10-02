@@ -19,18 +19,20 @@ This project is a front-end practice exercise focused on building a clean, reusa
 ```
 ├── index.html
 ├── style.css
+├── screenshots/
+│   └── preview.png
 ├── variant01/ # Charmander (Fire)
-│ ├── variant01.html
-│ ├── variant01.css
-│ └── images/
+│   ├── variant01.html
+│   ├── variant01.css
+│   └── images/
 ├── variant02/ # Squirtle (Water)
-│ ├── variant02.html
-│ ├── variant02.css
-│ └── images/
+│   ├── variant02.html
+│   ├── variant02.css
+│   └── images/
 └── variant03/ # Bulbasaur (Grass)
-├── variant03.html
-├── variant03.css
-└── images/
+    ├── variant03.html
+    ├── variant03.css
+    └── images/
 ```
 
 ## Concepts Practiced
